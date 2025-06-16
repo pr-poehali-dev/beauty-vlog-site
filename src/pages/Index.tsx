@@ -1,12 +1,46 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import Navigation from "@/components/Navigation";
+import Hero from "@/components/Hero";
+import FeaturedVideos from "@/components/FeaturedVideos";
+import PhotoGallery from "@/components/PhotoGallery";
 
 const Index = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4 color-black text-black">Добро пожаловать!</h1>
-        <p className="text-xl text-gray-600">тут будет отображаться ваш проект</p>
-      </div>
+    <div className="min-h-screen">
+      <Navigation />
+      <Hero />
+      <FeaturedVideos />
+      <PhotoGallery />
+
+      <footer className="bg-gray-900 text-white py-12">
+        <div className="max-w-6xl mx-auto px-6 text-center">
+          <h3 className="text-2xl font-cormorant font-bold mb-4">
+            Красота Дня
+          </h3>
+          <p className="text-gray-400 mb-6">
+            Находим прекрасное в обыкновенном каждый день
+          </p>
+          <div className="flex justify-center gap-6">
+            <a
+              href="#"
+              className="text-gray-400 hover:text-white transition-colors"
+            >
+              YouTube
+            </a>
+            <a
+              href="#"
+              className="text-gray-400 hover:text-white transition-colors"
+            >
+              Instagram
+            </a>
+            <a
+              href="#"
+              className="text-gray-400 hover:text-white transition-colors"
+            >
+              Telegram
+            </a>
+          </div>
+        </div>
+      </footer>
     </div>
   );
 };
