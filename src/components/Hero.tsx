@@ -24,7 +24,7 @@ const Hero = () => {
       <div className="relative z-10 text-center max-w-4xl mx-auto px-6">
         <h1 className="text-5xl md:text-7xl font-cormorant font-bold text-gray-800 mb-8 animate-fade-in">
           Красота
-          <span className="block text-purple-600">Повседневности</span>
+          <span className="block text-stone-500">Повседневности</span>
         </h1>
 
         <div className="h-16 flex items-center justify-center mb-12">
