@@ -29,9 +29,7 @@ const Index = () => {
             <a
               href="#"
               className="text-gray-400 hover:text-white transition-colors"
-            >
-              Instagram
-            </a>
+            ></a>
             <a
               href="#"
               className="text-gray-400 hover:text-white transition-colors"
