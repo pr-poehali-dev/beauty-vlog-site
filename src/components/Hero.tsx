@@ -37,10 +37,10 @@ const Hero = () => {
         </div>
 
         <div className="flex gap-4 justify-center">
-          <button className="px-8 py-3 bg-purple-600 text-white rounded-full hover:bg-purple-700 transition-all hover:scale-105 font-medium">
+          <button className="px-8 py-3 text-white rounded-full hover:bg-purple-700 transition-all hover:scale-105 font-medium bg-stone-500">
             Смотреть видео
           </button>
-          <button className="px-8 py-3 border-2 border-purple-600 text-purple-600 rounded-full hover:bg-purple-600 hover:text-white transition-all hover:scale-105 font-medium">
+          <button className="px-8 py-3 border-2 border-purple-600 rounded-full hover:bg-purple-600 hover:text-white transition-all hover:scale-105 font-medium bg-stone-500 text-[#ffffff]">
             Узнать больше
           </button>
         </div>
