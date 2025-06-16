@@ -1,52 +1,59 @@
-@import url("https://fonts.googleapis.com/css2?family=Cormorant:wght@400;600;700&family=Open+Sans:wght@300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
-    --primary: 262 83% 58%;
-    --primary-foreground: 210 40% 98%;
-    --secondary: 210 40% 96%;
-    --secondary-foreground: 222.2 84% 4.9%;
-    --muted: 210 40% 96%;
-    --muted-foreground: 215.4 16.3% 46.9%;
-    --accent: 210 40% 96%;
-    --accent-foreground: 222.2 84% 4.9%;
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 262 83% 58%;
-    --radius: 0.75rem;
+    --background: 245 245 220; /* cream */
+    --foreground: 26 61 46; /* dark green */
+    --card: 245 245 220;
+    --card-foreground: 26 61 46;
+    --popover: 245 245 220;
+    --popover-foreground: 26 61 46;
+    --primary: 212 175 55; /* gold */
+    --primary-foreground: 45 27 20; /* dark brown */
+    --secondary: 139 119 101; /* warm brown */
+    --secondary-foreground: 245 245 220;
+    --muted: 226 221 209; /* light cream */
+    --muted-foreground: 89 76 65;
+    --accent: 212 175 55;
+    --accent-foreground: 45 27 20;
+    --destructive: 185 28 28;
+    --destructive-foreground: 245 245 220;
+    --border: 139 119 101;
+    --input: 226 221 209;
+    --ring: 212 175 55;
+    --radius: 0.5rem;
+
+    /* Dark Academia specific colors */
+    --academia-dark-green: 26 61 46;
+    --academia-brown: 45 27 20;
+    --academia-gold: 212 175 55;
+    --academia-cream: 245 245 220;
+    --academia-warm-brown: 139 119 101;
   }
 
   .dark {
-    --background: 222.2 84% 4.9%;
-    --foreground: 210 40% 98%;
-    --card: 222.2 84% 4.9%;
-    --card-foreground: 210 40% 98%;
-    --popover: 222.2 84% 4.9%;
-    --popover-foreground: 210 40% 98%;
-    --primary: 262 83% 58%;
-    --primary-foreground: 222.2 84% 4.9%;
-    --secondary: 217.2 32.6% 17.5%;
-    --secondary-foreground: 210 40% 98%;
-    --muted: 217.2 32.6% 17.5%;
-    --muted-foreground: 215 20.2% 65.1%;
-    --accent: 217.2 32.6% 17.5%;
-    --accent-foreground: 210 40% 98%;
-    --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 210 40% 98%;
-    --border: 217.2 32.6% 17.5%;
-    --input: 217.2 32.6% 17.5%;
-    --ring: 262 83% 58%;
+    --background: 45 27 20;
+    --foreground: 245 245 220;
+    --card: 45 27 20;
+    --card-foreground: 245 245 220;
+    --popover: 45 27 20;
+    --popover-foreground: 245 245 220;
+    --primary: 212 175 55;
+    --primary-foreground: 45 27 20;
+    --secondary: 26 61 46;
+    --secondary-foreground: 245 245 220;
+    --muted: 59 41 30;
+    --muted-foreground: 189 178 165;
+    --accent: 212 175 55;
+    --accent-foreground: 45 27 20;
+    --destructive: 220 38 38;
+    --destructive-foreground: 245 245 220;
+    --border: 59 41 30;
+    --input: 59 41 30;
+    --ring: 212 175 55;
   }
 }
 
@@ -55,6 +62,6 @@
     @apply border-border;
   }
   body {
-    @apply bg-background text-foreground font-open-sans;
+    @apply bg-background text-foreground font-crimson;
   }
 }

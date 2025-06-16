@@ -19,8 +19,8 @@ export default {
     },
     extend: {
       fontFamily: {
-        cormorant: ["Cormorant", "serif"],
-        "open-sans": ["Open Sans", "sans-serif"],
+        playfair: ["Playfair Display", "serif"],
+        crimson: ["Crimson Text", "serif"],
       },
       colors: {
         border: "hsl(var(--border))",
@@ -29,7 +29,7 @@ export default {
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
         primary: {
-          DEFAULT: "#9b87f5",
+          DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
         },
         secondary: {
@@ -55,6 +55,14 @@ export default {
         card: {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
+        },
+        // Dark Academia colors
+        academia: {
+          "dark-green": "#1a3d2e",
+          brown: "#2d1b14",
+          gold: "#d4af37",
+          cream: "#f5f5dc",
+          "warm-brown": "#8b7765",
         },
       },
       borderRadius: {
